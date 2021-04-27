@@ -1,0 +1,42 @@
+
+
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+picture{
+    display: flex;
+justify-content: center;
+
+}
