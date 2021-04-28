@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
 <!-- header -->
@@ -26,7 +26,7 @@
 </nav>
 </article>
 <!-- Logotipo -->
-<img class="logo" src="./assets/img/logo.svg" alt="logo">
+<img class="logo" src="./img/logo.svg" alt="logo">
  
 
 
@@ -34,37 +34,59 @@
 </header>
 <!-- main -->
 <main>
-        <!-- banner retina display -->
-<picture class="banner">
-    <source srcset="./assets/img/banner1.jpg 1x, ./assets/img/banner1 2x.jpg 2x">
-      <img src="" alt="banner de farmacia"> <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, harum!</figcaption>
-
-      <source srcset="./assets/img/banner2.jpg 1x, ./assets/img/banner2 2x.jpg 2x">
-      <img src="" alt="banner de farmacia"><figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nostrum. </figcaption>
-
-      <source srcset="./assets/img/banner3.jpg 1x, ./assets/img/banner3 2x.jpg 2x">
-  <img  src="" alt="banner de farmacia"> <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, velit!</figcaption>
+      <section class="banner"> <!-- banner retina display -->
+        <article class="bannera">
+<picture>
+    <source srcset="./img/banner1.jpg 1x, ./img/banner1 2x.jpg 2x">
+      <img src="" alt="banner de farmacia"> 
 </picture>
+<picture>
+      <source srcset="./img/banner2.jpg 1x, ./img/banner2 2x.jpg 2x">
+      <img src="" alt="banner de farmacia">
+</picture>
+<picture>
+      <source srcset="./img/banner3.jpg 1x, ./img/banner3 2x.jpg 2x">
+  <img  src="" alt="banner de farmacia"> 
+</picture>
+</article>
+      </section>
+
     <h3>PRODUCTOS, que puedes comprar en nuestra farmacia</h3>
 
 <article class="productos">
-<picture>
+
     <figure>
-<img src="" alt="" srcset="">
-<figcaption>    </figcaption>
-</figure>
-<figure>
+<picture>
+    <source srcset="./img/img_producto01.jpg 1x, ./img/img_producto01 2x.jpg 2x">
     <img src="" alt="" srcset="">
-    <figcaption>    </figcaption>
-</figure>
-<figure><img src="" alt="" srcset="">
-<figcaption>    </figcaption>
-</figure>
-<figure><img src="" alt="" srcset="">
-<figcaption>      </figcaption>
+</picture>
+<figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, pariatur?</figcaption>
 </figure>
 
+<figure>
+    <picture>
+        <source srcset="./img/img_producto02.jpg 1x, ./img/img_producto02 2x.jpg 2x">
+    <img src="" alt="" srcset="">
 </picture>
+    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, voluptas?</figcaption>
+</figure>
+
+<figure>
+    <picture>
+        <source srcset="./img/img_producto03.jpg 1x, ./img/img_producto01 3x.jpg 2x">
+    <img src="" alt="" srcset="">
+</picture>
+<figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, libero.</figcaption>
+</figure>
+
+<figure>
+    <picture>
+        <source srcset="./img/img_producto04.jpg 1x, ./img/img_producto041 2x.jpg 2x">
+        <img src="" alt="" srcset="">
+    </picture>
+<figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, assumenda?</figcaption>
+</figure>
+
 </article>
 
     <article class="mapa">
@@ -76,6 +98,7 @@
 
 
 </section>
+
 
 </main>
 

@@ -5,14 +5,14 @@ html{
     font-family: sans-serif;
 }
 
-header{
+section.header{
 
     display: flex;
     flex-direction: column;
     
 }
 
-.menu{
+article.menu{
     
     display: flex;
     justify-content: center;
@@ -28,15 +28,24 @@ a{
 .logo{
     display: flex;
     justify-content: center;
-    
+    height: 100px;
 }
-main{
+.banner{
     display: flex;
     flex-direction: column;
+
 }
 
-picture{
-    display: flex;
-justify-content: center;
+.bannera{
 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+article.productos{
+
+    display: flex;
+align-items: center;
+    justify-content: space-around;
 }
