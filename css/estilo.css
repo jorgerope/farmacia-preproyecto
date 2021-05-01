@@ -1,22 +1,18 @@
 
 
-html{
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-section.header{
+.header{
 
     display: flex;
     flex-direction: column;
     
 }
 
-article.menu{
+.menu{
     
     display: flex;
     justify-content: center;
     align-items:center;
+
    
 }
 
@@ -25,27 +21,76 @@ a{
     padding: 0.5rem;
 }
 
+
+
 .logo{
     display: flex;
     justify-content: center;
     height: 100px;
 }
 .banner{
-    display: flex;
-    flex-direction: column;
 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
 }
 
-.bannera{
-
+.tituloyboton{
     display: flex;
-    justify-content: space-around;
+    flex-direction:row;
+    align-items: center;
+ 
+}
+.boton{
+ padding: 10px;
+margin-left: 175px;
+background: #7DBB02;
+border-radius: 0px 20px;
+text-align: center;
+
+  
+}
+
+.h2{
+    font-size: 36px;
+}
+
+h3{
+    text-align: center;
 }
 
 
-article.productos{
-
+.productos_container{
     display: flex;
-align-items: center;
-    justify-content: space-around;
+    flex-direction:row;
+    justify-content:space-between;
+  
+}
+
+.titulodos{
+    font-size: 36px;
+}
+
+
+.mapa{
+ display: flex;
+ justify-content: center;
+    
+}
+.footer{
+
+display: flex;
+flex-direction: column;
+background-color: green;
+}
+
+.vectores{
+display: flex;
+justify-content: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
 }
