@@ -1,5 +1,5 @@
 
-
+/* HEADER */
 .header{
 
     display: flex;
@@ -7,7 +7,7 @@
     
 }
 
-.menu{
+.header__menu{
     
     display: flex;
     justify-content: center;
@@ -23,12 +23,12 @@ a{
 
 
 
-.logo{
+.header__logo{
     display: flex;
     justify-content: center;
     height: 100px;
 }
-.banner{
+.main__banner{
 
     display: flex;
     flex-direction:row;
@@ -36,13 +36,13 @@ a{
     
 }
 
-.tituloyboton{
+.main__tituloyboton{
     display: flex;
     flex-direction:row;
     align-items: center;
  
 }
-.boton{
+.main__boton{
  padding: 10px;
 margin-left: 175px;
 background: #7DBB02;
@@ -61,23 +61,25 @@ h3{
 }
 
 
-.productos_container{
+.main__productos_container{
     display: flex;
     flex-direction:row;
     justify-content:space-between;
   
 }
 
-.titulodos{
+.main__subtitulo{
     font-size: 36px;
 }
 
 
-.mapa{
+.main__mapa{
  display: flex;
  justify-content: center;
     
 }
+
+/* FOOTER */
 .footer{
 
 display: flex;
@@ -85,12 +87,12 @@ flex-direction: column;
 background-color: green;
 }
 
-.vectores{
+.footer__redes{
 display: flex;
 justify-content: center;
 }
 
-.copy{
+.footer__copy{
     display: flex;
     justify-content: center;
 }
